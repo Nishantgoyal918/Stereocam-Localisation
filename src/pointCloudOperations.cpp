@@ -9,10 +9,10 @@ PointCloudOperations::~PointCloudOperations(){
 
 }
 
-PointCloudOperations::transform(){
+void PointCloudOperations::transform(){
 
 }
 
-PointCloudOperations::outTreeSearch(){
+void PointCloudOperations::outTreeSearch(){
 
 }

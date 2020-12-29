@@ -2,7 +2,7 @@
 #define LOCALISER_H
 
 #include <ros/ros.h>
-#include <stereo.h>
+#include "stereo.h"
 
 /**
  * Localiser Class  
@@ -17,12 +17,12 @@ public:
 
     ~Localiser();
 
-    Stereo stereocam(ros::NodeHandle& node);
+    Stereo stereocam;
 
 private:
 
     ros::NodeHandle& nh;
 
-}
+};
 
 #endif

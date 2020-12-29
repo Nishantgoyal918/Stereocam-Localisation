@@ -33,6 +33,6 @@ public:
      * Function to find the local map corresponding to current position
      */
     void outTreeSearch();
-}
+};
 
 #endif
